@@ -6,8 +6,7 @@
 
 html, body {
     height: 100%;
-    background-color: #11243C;
-
+    background-color: #173B57;
 }
 
 aside {
@@ -19,7 +18,8 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 13px double #11243C;
+    border-right: 13px double #173B57;
+    position: absolute;
 }
 
 aside img {
@@ -27,11 +27,11 @@ aside img {
     max-width: 200px;
     min-width: 100px;
     border-radius: 50%;
-    border: 5px solid #11243C;
+    border: 5px solid #173B57;
     margin-bottom: 10px;
 }
 
-aside span a {
+aside nav a {
     width: 100px;
     margin-left: 48px;
     text-decoration: none;
@@ -44,10 +44,33 @@ aside span a {
     padding: 5px;
 }
 
-aside span a:hover {
+aside nav a:hover {
     background: #004d74;
     border-radius: 5%;
     color: #000;
     transition: 0.6s;
+}
 
+main {
+    height: 100%;
+    padding-left: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 4.5em;
+
+}
+main p {
+    width: 850px;
+    margin-top: 10px;
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main span {
+    color: #0a192b;
 }

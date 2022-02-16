@@ -35,32 +35,28 @@ aside img {
 
 aside nav a {
     font-family: 'Roboto Mono', monospace;
-    width: 125px;
+    width: 140px;
     padding: 5px;
-    margin-left: 39px;
+    margin-left: 35px;
     margin-top: 5px;
     letter-spacing: 3px;
+    font-weight: 600;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #3A5C65;
-    /* opacity: 0.4;*/
 }
-
-/*aside nav a.selectd {
-    opacity: 1;
-}*/
 
 aside nav a:hover {
     background: #3A5C65;
     border-radius: 5%;
     color: #000;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 /* /aside */
 
-main, #formacao {
+#quem-sou, #formacao, #portifolio {
     height: 620px;
     padding-left: 408px;
     display: flex;
@@ -68,19 +64,22 @@ main, #formacao {
     align-items: center;
 }
 
-#quem-sou h1, #formacao h2 {
+#quem-sou h1, #formacao h2, #portifolio h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 4.5em;
     text-align: right;
 }
 
-#quem-sou p, #formacao p {
+#quem-sou p, #formacao p, #portifolio p {
     font-family: 'Roboto Mono', monospace;
     width: 850px;
     margin-top: 18px;
     text-align: right;
 }
 
+#quem-sou p {
+    margin-left: 15px;
+}
 #quem-sou span {
     color: #2D3434;
 }
@@ -96,17 +95,20 @@ main, #formacao {
 
 /* /main */
 
-footer a {
+#topo a {
     font-family: 'Roboto Mono', monospace;
-    width: 150px;
-    font-size: 0.9em;
-    position: relative;
-    align-content: center;
-    float: right;
+    font-size: 2em;
+    margin-top: 590px;
     color: #000;
     text-decoration: none;
+    display: flex;
+    transform: rotate(90deg);
+    opacity: 0.5;
+    transition: 0.3s;
 }
 
-footer a:hover {
-    font-weight: 600;
+#topo a:hover {
+    color: #000;
+    opacity: 1;
+    transition: 0.3s;
 }

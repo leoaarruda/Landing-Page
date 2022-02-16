@@ -9,6 +9,7 @@
 html, body {
     height: 100%;
     background-color: #3A5C65;
+    scroll-behavior: smooth;
 }
 
 aside {
@@ -34,10 +35,11 @@ aside img {
 
 aside nav a {
     font-family: 'Roboto Mono', monospace;
-    width: 100px;
+    width: 125px;
     padding: 5px;
-    margin-left: 48px;
+    margin-left: 39px;
     margin-top: 5px;
+    letter-spacing: 3px;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
@@ -53,41 +55,57 @@ aside nav a:hover {
     background: #3A5C65;
     border-radius: 5%;
     color: #000;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-main {
-    height: 100%;
+/* /aside */
+
+main, #formacao {
+    height: 620px;
     padding-left: 408px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main h1 {
+#quem-sou h1, #formacao h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 4.5em;
     text-align: right;
 }
 
-main p {
+#quem-sou p, #formacao p {
     font-family: 'Roboto Mono', monospace;
     width: 850px;
     margin-top: 18px;
     text-align: right;
 }
 
-main span {
+#quem-sou span {
     color: #2D3434;
 }
 
 #redes {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
     margin-left: 735px;
     width: 130px;
-    margin-top: 300px;
-    position: absolute;
+    margin-top: 30px;
+}
+
+/* /main */
+
+footer a {
+    font-family: 'Roboto Mono', monospace;
+    width: 150px;
+    font-size: 0.9em;
+    position: relative;
+    align-content: center;
+    float: right;
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: 600;
 }

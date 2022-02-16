@@ -11,15 +11,16 @@
 
 <body>
 
+    <link href="#top" class="trasicao">
     <aside>
 
         <div>
             <img src="img/eu2.jpg" alt="">
 
             <nav>
-                <a class="selectd" href=""><Strong>Quem sou</Strong></a>
-                <a href=""><strong>Formação</strong></a>
-                <a href=""><strong>Estudos</strong></a>
+                <a class="selectd" href="#top"><Strong>Quem sou</Strong></a>
+                <a href="#formacao" href=""><strong>Formação</strong></a>
+                <a href="#portifolio"><strong>Portfólio</strong></a>
             </nav>
 
         </div>
@@ -27,19 +28,38 @@
     </aside>
 
     <main>
+        <link href="#formacao">
 
-        <div>
-            <h1>Leandro <span>Arruda</span></h1>
-            <p> Sou estudante de Análise e Desenvolvimento de Sistemas, e meu foco está sendo no desenvolvimento web. Estou a estudar <strong>HTML5</strong> e <strong>CSS3</strong> e pretendo seguir o caminho pelo <strong>JavaScript</strong>,  <strong>Angular.js</strong> e <strong>React.js</strong> </p>
-        </div>
+        <section id="quem-sou">
 
-        <div id="redes">
-            <a href="https://github.com/leoaarruda" target="_blank" rel="external"><img src="img/gh.png" alt="link github"></a>
-            <a href="https://www.linkedin.com/in/leandro-arruda-777089160/" target="_blank" rel="external"><img src="img/in.png" alt="link linkedin"></a>
-        </div>
+            <div>
+                <h1>Leandro <span>Arruda</span></h1>
+                <p>Sou um cara de 40 anos, tenho uma certa experiência na área de T.I, mas agora pretendo entrar para o mundo do desenvolvimento web. Descobri uma boa afinidade com essa área durante meu curso de Análise e <Strong>Desenvolvimento de Sistemas</Strong> e no atual momento estou em busca de um estágio.</p>
+            </div>
+
+            <div id="redes">
+                <a href="https://github.com/leoaarruda" target="_blank" rel="external"><img src="img/gh.png"
+                        alt="link github"></a>
+                <a href="https://www.linkedin.com/in/leandro-arruda-777089160/" target="_blank" rel="external"><img
+                        src="img/in.png" alt="link linkedin"></a>
+            </div>
+
+        </section>
 
     </main>
 
+    <section id="formacao">
+        <div>
+            <h2>Formação</h2>
+            <p>Estou terminando o curso de <Strong>ADS</Strong> no <Strong>Centro Universitário Tiradentes (Unit)</Strong>, em paralelo estou fazendo um curso na plataforma <strong>Udemy</strong>, o <strong>Desenvolvimento Web 2022</strong>, com os seguintes assuntos: HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP 7, OO, MySQL, JQuery, MVC, APIs, IONIC, entre outros.</p>
+                <p>Tenho formação técnia em <strong> Redes de Computadores</strong> pela antiga UNIBRATEC.</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <span><a href="#top">Voltar ao topo</a></span>
+    </footer>
 </body>
 
 </html>

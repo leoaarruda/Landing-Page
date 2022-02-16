@@ -88,6 +88,7 @@ main, #formacao {
 #redes {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin-left: 735px;
     width: 130px;
     margin-top: 30px;

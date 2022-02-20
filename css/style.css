@@ -37,13 +37,14 @@ aside nav a {
     font-family: 'Roboto Mono', monospace;
     width: 120px;
     padding: 5px;
-    margin-left: 35px;
+    margin-left: 40px;
     margin-top: 5px;
     letter-spacing: 3px;
     font-weight: 600;
     text-decoration: none;
     display: flex;
     justify-content: center;
+    justify-items: center;
     color: #1A8B9D;
 }
 

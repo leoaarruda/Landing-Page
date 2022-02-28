@@ -14,7 +14,7 @@ html, body {
 
 aside {
     width: 30%;
-    min-width: 250px;
+    width: 400px;
     height: 100%;
     position: fixed;
     background-color: #000;
@@ -25,9 +25,7 @@ aside {
 }
 
 aside img {
-    width: 100%;
-    max-width: 200px;
-    min-width: 100px;
+    width: 200px;
     border-radius: 50%;
     border: 5px solid #1A8B9D;
     margin-bottom: 10px;
@@ -50,7 +48,7 @@ aside nav a {
 
 aside nav a:hover {
     background: #1A8B9D;
-    border-radius: 5%;
+    border-radius: 4px;
     color: #07031A;
     transition: 0.5s;
 }
@@ -115,4 +113,52 @@ aside nav a:hover {
     color: #000;
     opacity: 1;
     transition: 0.3s;
+}
+
+/* Resposividade do site*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+aside {
+    width: 300px;
+}
+
+aside img {
+    width: 180px;
+}
+
+aside nav a {
+    width: 105px;
+    letter-spacing: 2px;
+}
+
+#sobre, #formacao, #contato {
+    max-width: 992px;
+}
+
+#sobre h1, #formacao h2, #contato h2 {
+    font-size: 4em;
+}
+
+#sobre p, #formacao p, #contato p {
+    font-size: 0.9em;
+    width: 800px;
+    margin-left: 50px;
+}
+
 }

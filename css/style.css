@@ -57,7 +57,7 @@ aside nav a:hover {
 
 #sobre, #formacao, #contato {
     height: 620px;
-    padding-left: 408px;
+    margin-left: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,39 +126,64 @@ aside nav a:hover {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    aside {
+        width: 250px;
+    }
 
+    aside img {
+        width: 160px;
+    }
 
+    aside nav a {
+        width: 84px;
+        letter-spacing: 1px;
+    }
+    
+    #sobre, #formacao, #contato {
+        max-width: 768px;
+    }
 
+    #sobre h1, #formacao h2, #contato h2 {
+        font-size: 3em;
+        margin-right: 180px;
+    }
+    
+    #sobre p, #formacao p, #contato p {
+        font-size: 0.8em;
+        width: 700px;
+        margin-right: 180px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-aside {
-    width: 300px;
-}
+    aside {
+        width: 300px;
+    }
 
-aside img {
-    width: 180px;
-}
+    aside img {
+        width: 180px;
+    }
 
-aside nav a {
-    width: 105px;
-    letter-spacing: 2px;
-}
+    aside nav a {
+        width: 105px;
+        letter-spacing: 2px;
+    }
 
-#sobre, #formacao, #contato {
-    max-width: 992px;
-}
+    #sobre, #formacao, #contato {
+        max-width: 992px;
+    }
 
-#sobre h1, #formacao h2, #contato h2 {
-    font-size: 4em;
-}
+    #sobre h1, #formacao h2, #contato h2 {
+        font-size: 4em;
+        margin-right: 80px;
+    }
 
-#sobre p, #formacao p, #contato p {
-    font-size: 0.9em;
-    width: 800px;
-    margin-left: 50px;
-}
+    #sobre p, #formacao p, #contato p {
+        font-size: 0.9em;
+        width: 750px;
+        margin-right: 80px;
+    }
 
 }

@@ -12,6 +12,8 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/* Aside*/
+
 aside {
     width: 30%;
     width: 400px;
@@ -53,8 +55,6 @@ aside nav a:hover {
     transition: 0.5s;
 }
 
-/* /aside */
-
 #sobre, #formacao, #contato {
     height: 620px;
     margin-left: 400px;
@@ -62,6 +62,8 @@ aside nav a:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* Main */
 
 #sobre h1, #formacao h2, #contato h2 {
     font-family: 'Titillium Web', sans-serif;
@@ -85,13 +87,20 @@ aside nav a:hover {
     margin-left: 20px;
 }
 
-#redes {
+.flex-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 735px;
-    width: 130px;
+    justify-content: end;
     margin-top: 30px;
+}
+
+i {
+    font-size: 50px;
+    color: #000;
+    margin-left: 30px;
+}
+
+i:hover {
+    opacity: 0.7;
 }
 
 /* /main */
@@ -131,14 +140,15 @@ aside nav a:hover {
     }
 
     aside img {
-        width: 160px;
+        width: 140px;
     }
 
     aside nav a {
-        width: 84px;
+        width: 100px;
         letter-spacing: 1px;
+        margin-left: 24px;
     }
-    
+
     #sobre, #formacao, #contato {
         max-width: 768px;
     }
@@ -147,12 +157,24 @@ aside nav a:hover {
         font-size: 3em;
         margin-right: 180px;
     }
-    
+
     #sobre p, #formacao p, #contato p {
-        font-size: 0.8em;
-        width: 700px;
+        font-size: 0.7em;
+        width: 680px;
         margin-right: 180px;
+        margin-top: 8px;
     }
+
+    .flex-container {
+        width: 718px;
+    }
+
+    i {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -163,12 +185,13 @@ aside nav a:hover {
     }
 
     aside img {
-        width: 180px;
+        width: 167px;
     }
 
     aside nav a {
-        width: 105px;
+        width: 115px;
         letter-spacing: 2px;
+        margin-left: 35px;
     }
 
     #sobre, #formacao, #contato {
@@ -181,9 +204,25 @@ aside nav a:hover {
     }
 
     #sobre p, #formacao p, #contato p {
-        font-size: 0.9em;
-        width: 750px;
+        font-size: 1em;
+        width: 770px;
         margin-right: 80px;
+        margin-top: 10px;
     }
+
+    .flex-container {
+        width: 785px;
+    }
+
+    i {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+
+    /*margin-right: 10px;
+    padding: 30px 0 0 30px;
+    color: #000;
+    display: inline;
+    float: right;*/
 
 }
